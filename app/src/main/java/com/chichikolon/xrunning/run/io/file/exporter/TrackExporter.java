@@ -20,7 +20,7 @@ import androidx.annotation.NonNull;
 
 import java.io.OutputStream;
 
-import de.dennisguse.opentracks.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.Track;
 
 /**
  * Track exporting for exporting track to an {@link OutputStream}.

@@ -5,9 +5,9 @@ import android.view.View;
 
 import androidx.lifecycle.ViewModelProvider;
 
-import de.dennisguse.opentracks.adapters.AggregatedStatisticsAdapter;
-import de.dennisguse.opentracks.databinding.AggregatedStatsBinding;
-import de.dennisguse.opentracks.viewmodels.AggregatedStatisticsModel;
+import com.chichikolon.xrunning.run.adapters.AggregatedStatisticsAdapter;
+import com.chichikolon.xrunning.run.databinding.AggregatedStatsBinding;
+import com.chichikolon.xrunning.run.viewmodels.AggregatedStatisticsModel;
 
 public class AggregatedStatisticsActivity extends AbstractActivity {
 

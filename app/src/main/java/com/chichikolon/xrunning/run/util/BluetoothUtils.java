@@ -28,7 +28,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 
-import de.dennisguse.opentracks.content.sensor.SensorDataCycling;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCycling;
 
 /**
  * Utilities for dealing with bluetooth devices.

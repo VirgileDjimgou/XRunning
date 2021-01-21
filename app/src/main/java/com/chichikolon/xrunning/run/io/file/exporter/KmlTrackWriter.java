@@ -24,14 +24,14 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.DescriptionGenerator;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.util.FileUtils;
-import de.dennisguse.opentracks.util.StringUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.DescriptionGenerator;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.util.FileUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
 
 /**
  * Write track as KML to a file.

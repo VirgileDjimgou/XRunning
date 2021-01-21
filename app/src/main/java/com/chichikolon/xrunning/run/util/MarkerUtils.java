@@ -6,9 +6,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import de.dennisguse.opentracks.R;
-
-public class MarkerUtils {
+import com.chichikolon.xrunning.R;public class MarkerUtils {
 
     public static final int ICON_ID = R.drawable.ic_marker_orange_pushpin_with_shadow;
 

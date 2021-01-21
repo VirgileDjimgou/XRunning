@@ -30,11 +30,11 @@ import androidx.annotation.NonNull;
 
 import java.util.UUID;
 
-import de.dennisguse.opentracks.content.sensor.SensorData;
-import de.dennisguse.opentracks.content.sensor.SensorDataCycling;
-import de.dennisguse.opentracks.content.sensor.SensorDataCyclingPower;
-import de.dennisguse.opentracks.content.sensor.SensorDataHeartRate;
-import de.dennisguse.opentracks.util.BluetoothUtils;
+import com.chichikolon.xrunning.run.content.sensor.SensorData;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCycling;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCyclingPower;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataHeartRate;
+import com.chichikolon.xrunning.run.util.BluetoothUtils;
 
 /**
  * Manages connection to a Bluetooth LE sensor and subscribes for onChange-notifications.

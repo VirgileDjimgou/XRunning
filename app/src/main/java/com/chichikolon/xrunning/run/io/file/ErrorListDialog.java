@@ -9,10 +9,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.chichikolon.xrunning.R;
+
 import java.util.ArrayList;
 
-import de.dennisguse.opentracks.R;
-
+// import com.chichikolon.xrunning.R;
 public class ErrorListDialog extends DialogFragment {
 
     public static final String TAG = ErrorListDialog.class.getSimpleName();

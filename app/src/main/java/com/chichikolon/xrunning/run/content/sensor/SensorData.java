@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.services.sensors.BluetoothRemoteSensorManager;
+import com.chichikolon.xrunning.run.services.sensors.BluetoothRemoteSensorManager;
 
 public class SensorData {
 

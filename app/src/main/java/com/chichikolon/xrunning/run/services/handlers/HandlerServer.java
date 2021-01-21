@@ -8,7 +8,7 @@ import androidx.annotation.VisibleForTesting;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
 
 public class HandlerServer {
 

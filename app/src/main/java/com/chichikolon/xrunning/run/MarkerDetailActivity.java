@@ -31,11 +31,12 @@ import androidx.viewpager.widget.ViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.MarkerDetailActivityBinding;
-import de.dennisguse.opentracks.fragments.DeleteMarkerDialogFragment.DeleteMarkerCaller;
-import de.dennisguse.opentracks.fragments.MarkerDetailFragment;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.MarkerDetailActivityBinding;
+import com.chichikolon.xrunning.run.fragments.DeleteMarkerDialogFragment.DeleteMarkerCaller;
+import com.chichikolon.xrunning.run.fragments.MarkerDetailFragment;
 
 /**
  * An activity to display marker detail info.

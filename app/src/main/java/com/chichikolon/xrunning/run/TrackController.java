@@ -24,12 +24,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 
-import de.dennisguse.opentracks.databinding.TrackControllerBinding;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.services.TrackRecordingServiceInterface;
-import de.dennisguse.opentracks.util.ActivityUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.databinding.TrackControllerBinding;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceInterface;
+import com.chichikolon.xrunning.run.util.ActivityUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Track controller for record, pause, resume, and stop.

@@ -4,7 +4,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
 
 public class TrackPointUtils {
 

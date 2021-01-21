@@ -19,7 +19,7 @@ package com.chichikolon.xrunning.run.content.data;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
 
 /**
  * Constants for the track points table.

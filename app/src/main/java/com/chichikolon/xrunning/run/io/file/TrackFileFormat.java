@@ -4,14 +4,14 @@ import android.content.Context;
 
 import java.util.Locale;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.io.file.exporter.FileTrackExporter;
-import de.dennisguse.opentracks.io.file.exporter.GpxTrackWriter;
-import de.dennisguse.opentracks.io.file.exporter.KmlTrackWriter;
-import de.dennisguse.opentracks.io.file.exporter.KmzTrackExporter;
-import de.dennisguse.opentracks.io.file.exporter.TrackExporter;
-import de.dennisguse.opentracks.io.file.exporter.TrackWriter;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.io.file.exporter.FileTrackExporter;
+import com.chichikolon.xrunning.run.io.file.exporter.GpxTrackWriter;
+import com.chichikolon.xrunning.run.io.file.exporter.KmlTrackWriter;
+import com.chichikolon.xrunning.run.io.file.exporter.KmzTrackExporter;
+import com.chichikolon.xrunning.run.io.file.exporter.TrackExporter;
+import com.chichikolon.xrunning.run.io.file.exporter.TrackWriter;
 
 /**
  * Definition of all possible track formats.

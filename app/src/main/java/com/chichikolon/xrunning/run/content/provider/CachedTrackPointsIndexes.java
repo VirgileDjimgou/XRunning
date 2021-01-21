@@ -2,7 +2,7 @@ package com.chichikolon.xrunning.run.content.provider;
 
 import android.database.Cursor;
 
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
 
 /**
  * A cache of track points indexes.

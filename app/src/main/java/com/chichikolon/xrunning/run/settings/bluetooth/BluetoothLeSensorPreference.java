@@ -26,10 +26,9 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.settings.BluetoothLeAdapter;
-import de.dennisguse.opentracks.util.BluetoothUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.settings.BluetoothLeAdapter;
+import com.chichikolon.xrunning.run.util.BluetoothUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Preference to select a discoverable Bluetooth LE device.

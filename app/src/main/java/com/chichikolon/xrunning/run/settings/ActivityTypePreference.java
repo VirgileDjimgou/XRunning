@@ -27,11 +27,10 @@ import android.widget.ImageView;
 import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.fragments.ChooseActivityTypeDialogFragment;
-import de.dennisguse.opentracks.util.HackUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.TrackIconUtils;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.fragments.ChooseActivityTypeDialogFragment;
+import com.chichikolon.xrunning.run.util.HackUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
 
 /**
  * For entering the default activity type.

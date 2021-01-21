@@ -9,8 +9,8 @@ import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
 
 public class AggregatedStatisticsModel extends AndroidViewModel {
 

@@ -37,19 +37,19 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.content.provider.TrackPointIterator;
-import de.dennisguse.opentracks.stats.TrackStatisticsUpdater;
-import de.dennisguse.opentracks.util.FileUtils;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.TrackIconUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.provider.TrackPointIterator;
+import com.chichikolon.xrunning.run.stats.TrackStatisticsUpdater;
+import com.chichikolon.xrunning.run.util.FileUtils;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Abstract class for file track importers.

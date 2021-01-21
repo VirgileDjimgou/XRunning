@@ -29,9 +29,9 @@ import androidx.documentfile.provider.DocumentFile;
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProvider;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.databinding.ImportActivityBinding;
-import de.dennisguse.opentracks.io.file.ErrorListDialog;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.databinding.ImportActivityBinding;
+import com.chichikolon.xrunning.run.io.file.ErrorListDialog;
 
 /**
  * An activity to import files from the external storage.

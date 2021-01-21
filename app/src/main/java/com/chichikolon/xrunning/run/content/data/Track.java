@@ -25,8 +25,8 @@ import androidx.annotation.Nullable;
 import java.util.Objects;
 import java.util.UUID;
 
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * A track.

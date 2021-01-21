@@ -20,8 +20,8 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import de.dennisguse.opentracks.services.TrackRecordingService;
-import de.dennisguse.opentracks.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.services.TrackRecordingService;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
 
 /**
  * This class will periodically perform a task.

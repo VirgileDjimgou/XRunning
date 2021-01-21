@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.sensor.SensorData;
-import de.dennisguse.opentracks.content.sensor.SensorDataCycling;
-import de.dennisguse.opentracks.content.sensor.SensorDataCyclingPower;
-import de.dennisguse.opentracks.content.sensor.SensorDataHeartRate;
-import de.dennisguse.opentracks.util.StringUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.sensor.SensorData;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCycling;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCyclingPower;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataHeartRate;
+import com.chichikolon.xrunning.run.util.StringUtils;
 
 public class SensorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

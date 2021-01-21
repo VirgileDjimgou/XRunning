@@ -17,10 +17,10 @@ package com.chichikolon.xrunning.run.services.tasks;
 
 import android.util.Log;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.services.TrackRecordingService;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.services.TrackRecordingService;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Execute a periodic task on a time or distance schedule.

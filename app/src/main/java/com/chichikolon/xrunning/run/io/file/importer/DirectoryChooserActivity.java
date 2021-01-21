@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.documentfile.provider.DocumentFile;
 
-import de.dennisguse.opentracks.io.file.exporter.ExportActivity;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.io.file.exporter.ExportActivity;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 public abstract class DirectoryChooserActivity extends AppCompatActivity {
 

@@ -17,12 +17,12 @@ import java.io.FileDescriptor;
 import java.io.IOException;
 import java.util.NoSuchElementException;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.util.FileUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.util.FileUtils;
 
 public class MarkerEditViewModel extends AndroidViewModel {
 

@@ -3,9 +3,9 @@ package com.chichikolon.xrunning.run.viewmodels;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 public class IntervalStatistics {
     private final List<Interval> intervalList = new ArrayList<>();

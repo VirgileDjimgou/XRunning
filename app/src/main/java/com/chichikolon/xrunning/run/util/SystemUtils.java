@@ -27,7 +27,7 @@ import android.util.Log;
 
 import androidx.core.content.pm.PackageInfoCompat;
 
-import de.dennisguse.opentracks.BuildConfig;
+import com.chichikolon.xrunning.run.BuildConfig;
 
 /**
  * Utility class for accessing basic Android functionality.

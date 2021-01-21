@@ -31,20 +31,20 @@ import androidx.fragment.app.FragmentActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.TrackActivityDataHubInterface;
-import de.dennisguse.opentracks.chart.ChartPoint;
-import de.dennisguse.opentracks.chart.ChartView;
-import de.dennisguse.opentracks.content.TrackDataHub;
-import de.dennisguse.opentracks.content.TrackDataListener;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.databinding.ChartBinding;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.stats.TrackStatisticsUpdater;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.TrackActivityDataHubInterface;
+import com.chichikolon.xrunning.run.chart.ChartPoint;
+import com.chichikolon.xrunning.run.chart.ChartView;
+import com.chichikolon.xrunning.run.content.TrackDataHub;
+import com.chichikolon.xrunning.run.content.TrackDataListener;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.databinding.ChartBinding;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.stats.TrackStatisticsUpdater;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * A fragment to display track chart to the user.

@@ -22,13 +22,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.sensor.SensorData;
-import de.dennisguse.opentracks.content.sensor.SensorDataCycling;
-import de.dennisguse.opentracks.content.sensor.SensorDataSet;
-import de.dennisguse.opentracks.util.BluetoothUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.sensor.SensorData;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataCycling;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataSet;
+import com.chichikolon.xrunning.run.util.BluetoothUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Bluetooth LE sensor manager: manages connections to Bluetooth LE sensors.

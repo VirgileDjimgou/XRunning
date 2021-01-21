@@ -5,8 +5,8 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * This model is used to load intervals for a track.

@@ -9,8 +9,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 public class ResetDialogPreference extends DialogPreference {
 

@@ -7,9 +7,7 @@ import android.util.TypedValue;
 
 import androidx.core.content.ContextCompat;
 
-import de.dennisguse.opentracks.R;
-
-public class ThemeUtils {
+import com.chichikolon.xrunning.R;public class ThemeUtils {
 
     private ThemeUtils() {
     }

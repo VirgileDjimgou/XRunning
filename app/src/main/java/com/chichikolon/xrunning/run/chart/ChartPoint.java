@@ -3,10 +3,10 @@ package com.chichikolon.xrunning.run.chart;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.stats.TrackStatisticsUpdater;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.stats.TrackStatisticsUpdater;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 public class ChartPoint {
     //X-axis

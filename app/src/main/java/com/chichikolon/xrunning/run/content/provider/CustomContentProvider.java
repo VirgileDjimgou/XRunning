@@ -35,9 +35,9 @@ import androidx.annotation.VisibleForTesting;
 
 import java.util.Arrays;
 
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
 
 /**
  * A {@link ContentProvider} that handles access to track points, tracks, and markers tables.

@@ -9,11 +9,11 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.TrackIconUtils;
-import de.dennisguse.opentracks.viewmodels.AggregatedStatistics;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
+import com.chichikolon.xrunning.run.viewmodels.AggregatedStatistics;
 
 public class AggregatedStatisticsAdapter extends BaseAdapter {
 

@@ -23,13 +23,13 @@ import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.TrackEditBinding;
-import de.dennisguse.opentracks.fragments.ChooseActivityTypeDialogFragment;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.util.TrackIconUtils;
-import de.dennisguse.opentracks.util.TrackUtils;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.TrackEditBinding;
+import com.chichikolon.xrunning.run.fragments.ChooseActivityTypeDialogFragment;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
+import com.chichikolon.xrunning.run.util.TrackUtils;
 
 /**
  * An activity that let's the user see and edit the user editable track meta data such as track name, activity type, and track description.

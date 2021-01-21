@@ -2,7 +2,7 @@ package com.chichikolon.xrunning.run.content.sensor;
 
 import androidx.annotation.NonNull;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
 
 public final class SensorDataSet {
 

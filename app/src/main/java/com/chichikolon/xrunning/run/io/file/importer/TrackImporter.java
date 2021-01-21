@@ -17,7 +17,7 @@ package com.chichikolon.xrunning.run.io.file.importer;
 
 import java.io.InputStream;
 
-import de.dennisguse.opentracks.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.Track;
 
 /**
  * Interface for a track importer.

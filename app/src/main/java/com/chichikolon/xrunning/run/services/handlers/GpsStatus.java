@@ -5,8 +5,8 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Handler;
 
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * This class handle GPS status according to received locations and some thresholds.

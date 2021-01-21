@@ -30,20 +30,20 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import de.dennisguse.opentracks.content.TrackDataHub;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.TrackRecordedBinding;
-import de.dennisguse.opentracks.fragments.ChartFragment;
-import de.dennisguse.opentracks.fragments.ConfirmDeleteDialogFragment;
-import de.dennisguse.opentracks.fragments.IntervalsFragment;
-import de.dennisguse.opentracks.fragments.StatisticsRecordedFragment;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.settings.SettingsActivity;
-import de.dennisguse.opentracks.util.IntentDashboardUtils;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.content.TrackDataHub;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.TrackRecordedBinding;
+import com.chichikolon.xrunning.run.fragments.ChartFragment;
+import com.chichikolon.xrunning.run.fragments.ConfirmDeleteDialogFragment;
+import com.chichikolon.xrunning.run.fragments.IntervalsFragment;
+import com.chichikolon.xrunning.run.fragments.StatisticsRecordedFragment;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.settings.SettingsActivity;
+import com.chichikolon.xrunning.run.util.IntentDashboardUtils;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * An activity to show the track detail, record a new track or resumes an existing one.

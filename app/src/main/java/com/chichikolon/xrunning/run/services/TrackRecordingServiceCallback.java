@@ -1,6 +1,6 @@
 package com.chichikolon.xrunning.run.services;
 
-import de.dennisguse.opentracks.services.handlers.GpsStatusValue;
+import com.chichikolon.xrunning.run.services.handlers.GpsStatusValue;
 
 /**
  * Interface all activities have to implements to receive information from the service.

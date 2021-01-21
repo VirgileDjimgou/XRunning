@@ -23,8 +23,8 @@ import androidx.annotation.VisibleForTesting;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
 
 /**
  * Imports a GPX file.

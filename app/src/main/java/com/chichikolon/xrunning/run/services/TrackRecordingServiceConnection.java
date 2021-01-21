@@ -28,13 +28,13 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import de.dennisguse.opentracks.BuildConfig;
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.TrackEditActivity;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.BuildConfig;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.TrackEditActivity;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Wrapper for the track recording service.

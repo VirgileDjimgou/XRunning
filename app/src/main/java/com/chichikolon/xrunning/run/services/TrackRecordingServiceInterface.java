@@ -17,12 +17,12 @@ package com.chichikolon.xrunning.run.services;
 
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.sensor.SensorDataSet;
-import de.dennisguse.opentracks.services.handlers.GpsStatusValue;
-import de.dennisguse.opentracks.services.sensors.BluetoothRemoteSensorManager;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.sensor.SensorDataSet;
+import com.chichikolon.xrunning.run.services.handlers.GpsStatusValue;
+import com.chichikolon.xrunning.run.services.sensors.BluetoothRemoteSensorManager;
 
 /**
  * App's service.

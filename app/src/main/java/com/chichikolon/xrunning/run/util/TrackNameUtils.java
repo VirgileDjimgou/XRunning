@@ -23,8 +23,7 @@ import androidx.annotation.VisibleForTesting;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.content.data.Track;
 
 /**
  * Utilities for track name.

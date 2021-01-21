@@ -11,11 +11,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
 
 /**
  * Create an {@link Intent} to request showing a Dashboard.

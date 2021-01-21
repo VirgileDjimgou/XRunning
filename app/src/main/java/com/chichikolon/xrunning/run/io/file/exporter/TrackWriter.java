@@ -17,9 +17,9 @@ package com.chichikolon.xrunning.run.io.file.exporter;
 
 import java.io.OutputStream;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
 
 /**
  * Interface for writing tracks to a file. The expected sequence of calls is:

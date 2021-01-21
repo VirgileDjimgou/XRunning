@@ -23,12 +23,12 @@ import androidx.annotation.NonNull;
 
 import java.io.OutputStream;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.content.provider.TrackPointIterator;
-import de.dennisguse.opentracks.util.LocationUtils;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.provider.TrackPointIterator;
+import com.chichikolon.xrunning.run.util.LocationUtils;
 
 /**
  * Track Writer for writing tracks to an {@link OutputStream}.

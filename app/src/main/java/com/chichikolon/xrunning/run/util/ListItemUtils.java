@@ -28,9 +28,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import de.dennisguse.opentracks.R;
-
-/**
+import com.chichikolon.xrunning.R;/**
  * Utilities to display a list item.
  *
  * @author Jimmy Shih

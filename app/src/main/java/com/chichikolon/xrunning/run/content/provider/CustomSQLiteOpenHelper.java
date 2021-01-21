@@ -11,11 +11,11 @@ import androidx.annotation.VisibleForTesting;
 
 import java.util.UUID;
 
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.util.UUIDUtils;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.util.UUIDUtils;
 
 /**
  * Database helper for creating and upgrading the database.

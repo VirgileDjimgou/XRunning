@@ -33,8 +33,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import de.dennisguse.opentracks.BuildConfig;
-import de.dennisguse.opentracks.content.data.Track;
+import com.chichikolon.xrunning.run.BuildConfig;
+import com.chichikolon.xrunning.run.content.data.Track;
 
 /**
  * Utilities for dealing with files.

@@ -26,9 +26,8 @@ import androidx.annotation.VisibleForTesting;
 import androidx.documentfile.provider.DocumentFile;
 import androidx.preference.PreferenceManager;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.io.file.TrackFileFormat;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.io.file.TrackFileFormat;
 
 /**
  * Utilities to access preferences stored in {@link SharedPreferences}.

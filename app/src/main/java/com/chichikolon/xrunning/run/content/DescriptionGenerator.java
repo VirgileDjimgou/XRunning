@@ -21,11 +21,11 @@ import android.util.Pair;
 
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Generates descriptions for tracks and markers.

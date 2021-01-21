@@ -15,10 +15,10 @@ import androidx.documentfile.provider.DocumentFile;
 import java.io.IOException;
 import java.io.InputStream;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.io.file.TrackFileFormat;
-import de.dennisguse.opentracks.util.FileUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.io.file.TrackFileFormat;
+import com.chichikolon.xrunning.run.util.FileUtils;
 
 public class ImportService extends JobIntentService {
 

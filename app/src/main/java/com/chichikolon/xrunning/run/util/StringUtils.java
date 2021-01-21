@@ -32,9 +32,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 import java.util.Locale;
 
-import de.dennisguse.opentracks.R;
-
-/**
+import com.chichikolon.xrunning.R;/**
  * Various string manipulation methods.
  *
  * @author Sandor Dornbush

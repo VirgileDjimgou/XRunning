@@ -6,8 +6,8 @@ import android.util.Log;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
 
 /**
  * A lightweight wrapper around the original {@link Cursor} with a method to clean up.

@@ -21,11 +21,11 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.provider.TrackPointIterator;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.TrackPointUtils;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.provider.TrackPointIterator;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.TrackPointUtils;
 
 /**
  * Updater for {@link TrackStatistics}.

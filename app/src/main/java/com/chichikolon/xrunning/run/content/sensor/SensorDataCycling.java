@@ -5,8 +5,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import de.dennisguse.opentracks.util.UintUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.util.UintUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Provides cadence in rpm and speed in milliseconds from Bluetooth LE Cycling Cadence and Speed sensors.

@@ -41,15 +41,15 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.MarkerDetailActivity;
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.stats.ExtremityMonitor;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.MarkerUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.ThemeUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.MarkerDetailActivity;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.stats.ExtremityMonitor;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.MarkerUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.ThemeUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Visualization of the chart.

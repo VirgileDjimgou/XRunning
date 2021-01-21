@@ -4,9 +4,8 @@ import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.viewmodels.IntervalStatistics;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.viewmodels.IntervalStatistics;
 
 public class AnnouncementUtils {
 

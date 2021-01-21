@@ -6,8 +6,10 @@ import android.util.Log;
 
 import java.util.Locale;
 
-import de.dennisguse.opentracks.util.ActivityUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.BuildConfig;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.util.ActivityUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Code that is executed when the application starts.

@@ -23,7 +23,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import de.dennisguse.opentracks.util.TTSUtils;
+import com.chichikolon.xrunning.run.util.TTSUtils;
 
 /**
  * @author Jimmy Shih

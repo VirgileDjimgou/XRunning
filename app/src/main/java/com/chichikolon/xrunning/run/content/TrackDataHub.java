@@ -31,21 +31,21 @@ import androidx.annotation.VisibleForTesting;
 import java.util.Collections;
 import java.util.Set;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.content.provider.TrackPointIterator;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.provider.TrackPointIterator;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Track data hub.
- * Receives data from {@link de.dennisguse.opentracks.content.provider.CustomContentProvider} and distributes it to {@link TrackDataListener} after some processing.
+ * Receives data from {@link com.chichikolon.xrunning.run.content.provider.CustomContentProvider} and distributes it to {@link TrackDataListener} after some processing.
  *
  * {@link TrackPoint}s are filtered/downsampled with a dynamic sampling frequency.
  *

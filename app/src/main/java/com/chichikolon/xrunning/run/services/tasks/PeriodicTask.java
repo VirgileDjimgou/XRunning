@@ -16,7 +16,7 @@
 
 package com.chichikolon.xrunning.run.services.tasks;
 
-import de.dennisguse.opentracks.services.TrackRecordingService;
+import com.chichikolon.xrunning.run.services.TrackRecordingService;
 
 /**
  * This is interface for a task that will be executed on some schedule.

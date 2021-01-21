@@ -25,15 +25,15 @@ import android.util.Log;
 import java.util.List;
 import java.util.Locale;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.services.TrackRecordingService;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.util.AnnouncementUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
-import de.dennisguse.opentracks.viewmodels.IntervalStatistics;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.services.TrackRecordingService;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.util.AnnouncementUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
+import com.chichikolon.xrunning.run.viewmodels.IntervalStatistics;
 
 /**
  * This class will periodically announce the user's {@link TrackStatistics}.

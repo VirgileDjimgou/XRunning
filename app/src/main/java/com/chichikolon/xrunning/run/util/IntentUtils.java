@@ -31,12 +31,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.DescriptionGenerator;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.content.provider.ShareContentProvider;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.content.DescriptionGenerator;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.content.provider.ShareContentProvider;
 
 /**
  * Utilities for creating intents.

@@ -23,10 +23,10 @@ import java.io.PrintWriter;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.util.StringUtils;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.util.StringUtils;
 
 /**
  * Write track as GPX to a file.

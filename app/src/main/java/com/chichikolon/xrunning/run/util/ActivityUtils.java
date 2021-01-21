@@ -20,9 +20,8 @@ import androidx.appcompat.widget.SearchView;
 
 import java.util.ArrayList;
 
-import de.dennisguse.opentracks.ContextualActionModeCallback;
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.TrackController;
+import com.chichikolon.xrunning.run.ContextualActionModeCallback;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.TrackController;
 
 import static android.content.Context.VIBRATOR_SERVICE;
 

@@ -21,12 +21,12 @@ import android.content.Intent;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.fragments.ConfirmDeleteDialogFragment;
-import de.dennisguse.opentracks.fragments.ConfirmDeleteDialogFragment.ConfirmDeleteCaller;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.fragments.ConfirmDeleteDialogFragment;
+import com.chichikolon.xrunning.run.fragments.ConfirmDeleteDialogFragment.ConfirmDeleteCaller;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * An abstract class for the following common tasks across

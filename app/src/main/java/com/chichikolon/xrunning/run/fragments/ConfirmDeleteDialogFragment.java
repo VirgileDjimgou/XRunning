@@ -24,9 +24,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentManager;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.util.DialogUtils;
+// import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.util.DialogUtils;
 
 /**
  * A DialogFragment to confirm delete.

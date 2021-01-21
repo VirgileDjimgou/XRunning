@@ -12,10 +12,10 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.viewmodels.IntervalStatistics;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.viewmodels.IntervalStatistics;
 
 public class IntervalStatisticsAdapter extends ArrayAdapter<IntervalStatistics.Interval> {
 

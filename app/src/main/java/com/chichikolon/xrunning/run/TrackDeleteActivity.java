@@ -23,10 +23,10 @@ import android.view.View;
 
 import java.util.List;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.TrackDeleteBinding;
-import de.dennisguse.opentracks.util.SystemUtils;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.TrackDeleteBinding;
+import com.chichikolon.xrunning.run.util.SystemUtils;
 
 /**
  * An activity for deleting tracks.

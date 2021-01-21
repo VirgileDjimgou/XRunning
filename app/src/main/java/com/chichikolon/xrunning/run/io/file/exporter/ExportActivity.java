@@ -32,15 +32,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.ExportActivityBinding;
-import de.dennisguse.opentracks.io.file.ErrorListDialog;
-import de.dennisguse.opentracks.io.file.TrackFileFormat;
-import de.dennisguse.opentracks.util.ExportUtils;
-import de.dennisguse.opentracks.util.FileUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.ExportActivityBinding;
+import com.chichikolon.xrunning.run.io.file.ErrorListDialog;
+import com.chichikolon.xrunning.run.io.file.TrackFileFormat;
+import com.chichikolon.xrunning.run.util.ExportUtils;
+import com.chichikolon.xrunning.run.util.FileUtils;
 
 /**
  * An activity for saving tracks to the external storage.

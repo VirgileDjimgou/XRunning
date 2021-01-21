@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
 
 public class AggregatedStatistics {
 

@@ -27,7 +27,7 @@ import androidx.annotation.NonNull;
 
 import java.text.NumberFormat;
 
-import de.dennisguse.opentracks.stats.ExtremityMonitor;
+import com.chichikolon.xrunning.run.stats.ExtremityMonitor;
 
 /**
  * This class encapsulates the meta data for one series of the chart values.

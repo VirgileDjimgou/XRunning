@@ -15,9 +15,9 @@ import androidx.fragment.app.FragmentManager;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.databinding.ChooseActivityTypeBinding;
-import de.dennisguse.opentracks.util.TrackIconUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.databinding.ChooseActivityTypeBinding;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
 
 /**
  * A DialogFragment to choose an activity type.

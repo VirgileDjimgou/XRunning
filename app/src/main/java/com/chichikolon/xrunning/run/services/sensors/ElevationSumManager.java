@@ -10,8 +10,8 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import de.dennisguse.opentracks.util.PressureSensorUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.util.PressureSensorUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * Estimates the elevation gain and elevation loss using the device's pressure sensor (i.e., barometer).

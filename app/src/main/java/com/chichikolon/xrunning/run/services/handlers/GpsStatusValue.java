@@ -1,6 +1,6 @@
 package com.chichikolon.xrunning.run.services.handlers;
 
-import de.dennisguse.opentracks.R;
+import com.chichikolon.xrunning.R;
 
 /**
  * For each status value set an icon and id message.

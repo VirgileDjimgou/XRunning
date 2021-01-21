@@ -32,13 +32,13 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.io.file.exporter.KmzTrackExporter;
-import de.dennisguse.opentracks.util.FileUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.io.file.exporter.KmzTrackExporter;
+import com.chichikolon.xrunning.run.util.FileUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Imports a KMZ file.

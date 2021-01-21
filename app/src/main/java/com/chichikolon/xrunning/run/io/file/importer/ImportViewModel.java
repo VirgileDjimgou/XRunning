@@ -13,8 +13,8 @@ import androidx.lifecycle.MutableLiveData;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.FileUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.util.FileUtils;
 
 public class ImportViewModel extends AndroidViewModel implements ImportServiceResultReceiver.Receiver {
 

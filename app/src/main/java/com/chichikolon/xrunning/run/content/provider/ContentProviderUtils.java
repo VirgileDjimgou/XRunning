@@ -36,16 +36,17 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
 
-import de.dennisguse.opentracks.BuildConfig;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.data.TrackPointsColumns;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.stats.TrackStatistics;
-import de.dennisguse.opentracks.util.FileUtils;
-import de.dennisguse.opentracks.util.UUIDUtils;
+// import com.chichikolon.xrunning.run.BuildConfig;
+import com.chichikolon.xrunning.BuildConfig;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.data.TrackPointsColumns;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.stats.TrackStatistics;
+import com.chichikolon.xrunning.run.util.FileUtils;
+import com.chichikolon.xrunning.run.util.UUIDUtils;
 
 /**
  * {@link ContentProviderUtils} implementation.

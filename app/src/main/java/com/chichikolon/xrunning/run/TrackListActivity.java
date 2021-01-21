@@ -44,21 +44,22 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.CursorLoader;
 import androidx.loader.content.Loader;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TracksColumns;
-import de.dennisguse.opentracks.databinding.TrackListBinding;
-import de.dennisguse.opentracks.fragments.ConfirmDeleteDialogFragment;
-import de.dennisguse.opentracks.services.TrackRecordingServiceConnection;
-import de.dennisguse.opentracks.services.TrackRecordingServiceInterface;
-import de.dennisguse.opentracks.services.handlers.GpsStatusValue;
-import de.dennisguse.opentracks.settings.SettingsActivity;
-import de.dennisguse.opentracks.util.ActivityUtils;
-import de.dennisguse.opentracks.util.IntentDashboardUtils;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.ListItemUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.TrackIconUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TracksColumns;
+import com.chichikolon.xrunning.run.databinding.TrackListBinding;
+import com.chichikolon.xrunning.run.fragments.ConfirmDeleteDialogFragment;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceConnection;
+import com.chichikolon.xrunning.run.services.TrackRecordingServiceInterface;
+import com.chichikolon.xrunning.run.services.handlers.GpsStatusValue;
+import com.chichikolon.xrunning.run.settings.SettingsActivity;
+import com.chichikolon.xrunning.run.util.ActivityUtils;
+import com.chichikolon.xrunning.run.util.IntentDashboardUtils;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.ListItemUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.TrackIconUtils;
 
 /**
  * An activity displaying a list of tracks.

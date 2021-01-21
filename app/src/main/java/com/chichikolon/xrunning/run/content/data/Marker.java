@@ -27,7 +27,7 @@ import androidx.annotation.VisibleForTesting;
 
 import java.util.Objects;
 
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * @author Leif Hendrik Wilden

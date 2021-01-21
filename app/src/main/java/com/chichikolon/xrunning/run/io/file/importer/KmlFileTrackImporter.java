@@ -26,9 +26,9 @@ import org.xml.sax.SAXException;
 
 import java.util.ArrayList;
 
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.io.file.exporter.KmlTrackWriter;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.io.file.exporter.KmlTrackWriter;
 
 /**
  * Imports a KML file.

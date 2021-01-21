@@ -38,11 +38,12 @@ import androidx.lifecycle.ViewModelProvider;
 import java.io.FileDescriptor;
 import java.io.IOException;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.databinding.MarkerEditBinding;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.viewmodels.MarkerEditViewModel;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.databinding.MarkerEditBinding;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.viewmodels.MarkerEditViewModel;
 
 /**
  * An activity to add/edit a marker.

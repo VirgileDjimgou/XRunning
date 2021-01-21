@@ -20,7 +20,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 /**
- * Statistical data about a {@link de.dennisguse.opentracks.content.data.Track}.
+ * Statistical data about a {@link com.chichikolon.xrunning.run.content.data.Track}.
  * The data in this class should be filled out by {@link TrackStatisticsUpdater}.
  *
  * @author Rodrigo Damazio

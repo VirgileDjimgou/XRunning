@@ -10,12 +10,12 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.util.LocationUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.TrackPointUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.util.LocationUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.TrackPointUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 class LocationHandler implements HandlerServer.Handler, LocationListener, GpsStatus.GpsStatusListener {
 

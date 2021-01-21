@@ -35,18 +35,19 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.CursorLoader;
 import androidx.loader.content.Loader;
 
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.MarkerColumns;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.MarkerListBinding;
-import de.dennisguse.opentracks.fragments.DeleteMarkerDialogFragment;
-import de.dennisguse.opentracks.fragments.DeleteMarkerDialogFragment.DeleteMarkerCaller;
-import de.dennisguse.opentracks.util.ActivityUtils;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.ListItemUtils;
-import de.dennisguse.opentracks.util.MarkerUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.MarkerColumns;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.MarkerListBinding;
+import com.chichikolon.xrunning.run.fragments.DeleteMarkerDialogFragment;
+import com.chichikolon.xrunning.run.fragments.DeleteMarkerDialogFragment.DeleteMarkerCaller;
+import com.chichikolon.xrunning.run.util.ActivityUtils;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.ListItemUtils;
+import com.chichikolon.xrunning.run.util.MarkerUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
 
 /**
  * Activity to show a list of markers in a track.

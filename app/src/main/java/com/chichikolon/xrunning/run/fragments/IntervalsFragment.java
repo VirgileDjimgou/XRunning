@@ -15,19 +15,19 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.TrackActivityDataHubInterface;
-import de.dennisguse.opentracks.adapters.IntervalStatisticsAdapter;
-import de.dennisguse.opentracks.content.TrackDataHub;
-import de.dennisguse.opentracks.content.TrackDataListener;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.data.TrackPoint;
-import de.dennisguse.opentracks.databinding.IntervalListViewBinding;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
-import de.dennisguse.opentracks.viewmodels.IntervalStatistics;
-import de.dennisguse.opentracks.viewmodels.IntervalStatisticsModel;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.TrackActivityDataHubInterface;
+import com.chichikolon.xrunning.run.adapters.IntervalStatisticsAdapter;
+import com.chichikolon.xrunning.run.content.TrackDataHub;
+import com.chichikolon.xrunning.run.content.TrackDataListener;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.data.TrackPoint;
+import com.chichikolon.xrunning.run.databinding.IntervalListViewBinding;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
+import com.chichikolon.xrunning.run.viewmodels.IntervalStatistics;
+import com.chichikolon.xrunning.run.viewmodels.IntervalStatisticsModel;
 
 /**
  * A fragment to display the intervals from recorded track.

@@ -18,19 +18,18 @@ import androidx.preference.PreferenceFragmentCompat;
 
 import java.util.Locale;
 
-import de.dennisguse.opentracks.AbstractActivity;
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.fragments.ChooseActivityTypeDialogFragment;
-import de.dennisguse.opentracks.io.file.TrackFileFormat;
-import de.dennisguse.opentracks.settings.bluetooth.BluetoothLeCyclingCadenceAndSpeedPreference;
-import de.dennisguse.opentracks.settings.bluetooth.BluetoothLeCyclingPowerPreference;
-import de.dennisguse.opentracks.settings.bluetooth.BluetoothLeHeartRatePreference;
-import de.dennisguse.opentracks.settings.bluetooth.BluetoothLeSensorPreference;
-import de.dennisguse.opentracks.util.ActivityUtils;
-import de.dennisguse.opentracks.util.BluetoothUtils;
-import de.dennisguse.opentracks.util.HackUtils;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.StringUtils;
+import com.chichikolon.xrunning.run.AbstractActivity;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.fragments.ChooseActivityTypeDialogFragment;
+import com.chichikolon.xrunning.run.io.file.TrackFileFormat;
+import com.chichikolon.xrunning.run.settings.bluetooth.BluetoothLeCyclingCadenceAndSpeedPreference;
+import com.chichikolon.xrunning.run.settings.bluetooth.BluetoothLeCyclingPowerPreference;
+import com.chichikolon.xrunning.run.settings.bluetooth.BluetoothLeHeartRatePreference;
+import com.chichikolon.xrunning.run.settings.bluetooth.BluetoothLeSensorPreference;
+import com.chichikolon.xrunning.run.util.ActivityUtils;
+import com.chichikolon.xrunning.run.util.BluetoothUtils;
+import com.chichikolon.xrunning.run.util.HackUtils;
+import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
 
 public class SettingsActivity extends AbstractActivity implements ChooseActivityTypeDialogFragment.ChooseActivityTypeCaller, ResetDialogPreference.ResetCallback {
 

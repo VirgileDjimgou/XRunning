@@ -10,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Set;
 
-import de.dennisguse.opentracks.content.data.Track;
-import de.dennisguse.opentracks.content.provider.ShareContentProvider;
-import de.dennisguse.opentracks.io.file.TrackFileFormat;
-import de.dennisguse.opentracks.util.IntentDashboardUtils;
+import com.chichikolon.xrunning.run.content.data.Track;
+import com.chichikolon.xrunning.run.content.provider.ShareContentProvider;
+import com.chichikolon.xrunning.run.io.file.TrackFileFormat;
+import com.chichikolon.xrunning.run.util.IntentDashboardUtils;
 
 /**
  * Used to convert IntentDashboardUtils.startDashboard-requests into {@link TrackFileFormat}.

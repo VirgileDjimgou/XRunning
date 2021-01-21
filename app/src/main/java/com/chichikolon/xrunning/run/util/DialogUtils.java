@@ -22,7 +22,9 @@ import android.content.DialogInterface;
 
 import androidx.appcompat.app.AlertDialog;
 
-import de.dennisguse.opentracks.R;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.R;
+
 
 /**
  * Utilities for creating dialogs.

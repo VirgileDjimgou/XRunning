@@ -2,9 +2,8 @@ package com.chichikolon.xrunning.run.settings;
 
 import android.content.Context;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.PreferencesUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.R;import com.chichikolon.xrunning.run.util.PreferencesUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 final class PreferenceHelper {
 

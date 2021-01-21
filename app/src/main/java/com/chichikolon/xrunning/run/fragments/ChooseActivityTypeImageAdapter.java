@@ -26,8 +26,8 @@ import androidx.core.content.ContextCompat;
 
 import java.util.List;
 
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.util.ResourceUtils;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.util.ResourceUtils;
 
 /**
  * Image adapter for choosing an activity type.

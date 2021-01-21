@@ -35,16 +35,16 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import de.dennisguse.opentracks.MarkerEditActivity;
-import de.dennisguse.opentracks.R;
-import de.dennisguse.opentracks.content.data.Marker;
-import de.dennisguse.opentracks.content.provider.ContentProviderUtils;
-import de.dennisguse.opentracks.databinding.MarkerDetailFragmentBinding;
-import de.dennisguse.opentracks.util.IntentUtils;
-import de.dennisguse.opentracks.util.ListItemUtils;
-import de.dennisguse.opentracks.util.MarkerUtils;
-import de.dennisguse.opentracks.util.StringUtils;
-import de.dennisguse.opentracks.util.UnitConversions;
+import com.chichikolon.xrunning.run.MarkerEditActivity;
+import com.chichikolon.xrunning.R;
+import com.chichikolon.xrunning.run.content.data.Marker;
+import com.chichikolon.xrunning.run.content.provider.ContentProviderUtils;
+import com.chichikolon.xrunning.run.databinding.MarkerDetailFragmentBinding;
+import com.chichikolon.xrunning.run.util.IntentUtils;
+import com.chichikolon.xrunning.run.util.ListItemUtils;
+import com.chichikolon.xrunning.run.util.MarkerUtils;
+import com.chichikolon.xrunning.run.util.StringUtils;
+import com.chichikolon.xrunning.run.util.UnitConversions;
 
 /**
  * A fragment to show marker details.
