@@ -633,5 +633,6 @@
 
     <string name="instant_export_enabled_summary">Export track to storage after recording is finished</string>
     <string name="instant_export_enabled_title">Instant post-workout export</string>
+    <string name="settings_default_export_uri_title">ExportSettings</string>
 
 </resources>

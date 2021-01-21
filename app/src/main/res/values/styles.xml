@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorPrimary">@color/design_default_color_primary_dark</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/design_default_color_primary_variant</item>
+
+
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="colorControlHighlight">@color/material_on_primary_disabled</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
     <style name="BottomButton" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
